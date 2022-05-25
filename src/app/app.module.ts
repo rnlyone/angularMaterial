@@ -11,11 +11,13 @@ import {MaterialExampleModule} from '../material.module';
 import { AppRoutingModule } from './app-routing.module';
 import {CardFancy} from './card-fancy/card-fancy';
 import { AppComponent } from './app.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardFancy
+    CardFancy,
+    NavBarComponent
   ],
   imports: [
     BrowserAnimationsModule,
